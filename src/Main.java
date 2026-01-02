@@ -27,8 +27,8 @@ public class Main {
 
         Collections.sort(persons);
 
-        for (Person p : persons) {
-            System.out.println(p + " earns " + p.getPaymentAmount() + " tenge");
+        for (Person person : persons) {
+            System.out.println(person + " earns " + person.getPaymentAmount() + " tenge");
         }
 
     }
